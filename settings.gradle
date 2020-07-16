@@ -1,0 +1,1 @@
+include ':app', ':mobikuldialoglibrary-release', ':MobikulAutoScrollableView-release', ':currencypicker'

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ac">#de1ece</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="custom_dialog_button_background_color">@color/colorAccent</color>
+    <color name="custom_dialog_error_icon_background_color">#ff5858</color>
+    <color name="custom_dialog_success_icon_background_color">#00ff00</color>
+    <color name="custom_dialog_warning_icon_background_color">#ff9600</color>
+    <color name="test">#ffe732</color>
+    <dimen name="custom_dialog_button_horizontal_padding">8dp</dimen>
+    <dimen name="custom_dialog_button_margin">8dp</dimen>
+    <dimen name="custom_dialog_button_min_hieght">36dp</dimen>
+    <dimen name="custom_dialog_button_min_width">88dp</dimen>
+    <dimen name="custom_dialog_icon_size">72dp</dimen>
+    <dimen name="custom_dialog_main_container_padding">12dp</dimen>
+    <dimen name="custom_dialog_main_container_vertical_margin">36dp</dimen>
+    <dimen name="custom_dialog_main_container_vertical_padding">42dp</dimen>
+    <dimen name="custom_dialog_subtitle_text_size">14sp</dimen>
+    <dimen name="custom_dialog_title_text_size">18sp</dimen>
+    <string name="app_name">ProgressDialog</string>
+    <string name="error">Error</string>
+    <string name="error_occured_please_try_again">An error occurred. Please try again.</string>
+    <string name="please_wait">Please wait...</string>
+    <string name="process_is_successful">The process is successful.</string>
+    <string name="progress_dialog_content_text">Please wait while we process you request</string>
+    <string name="progress_dialog_title_text">Please wait</string>
+    <string name="success">Success</string>
+    <string name="warning">Warning</string>
+    <string name="warning_mesaage">Something is wrong. Please Check.</string>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+</resources>

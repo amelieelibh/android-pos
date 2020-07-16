@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                   
+
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:padding="@dimen/custom_dialog_main_container_padding" android:tag="layout/dialog_custom_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/custom_dialog_main_container_vertical_margin"
+                android:background="@drawable/rounded_shape"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/custom_dialog_main_container_padding"
+                android:paddingEnd="@dimen/custom_dialog_main_container_padding"
+                android:paddingLeft="@dimen/custom_dialog_main_container_padding"
+                android:paddingRight="@dimen/custom_dialog_main_container_padding"
+                android:paddingStart="@dimen/custom_dialog_main_container_padding"
+                android:paddingTop="@dimen/custom_dialog_main_container_vertical_padding">
+
+
+                <TextView
+                    android:id="@+id/heading"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:gravity="center_horizontal"
+                    android:textAllCaps="true"
+                    android:textSize="@dimen/custom_dialog_title_text_size"
+                    tools:text="Success" />
+
+
+                <TextView
+                    android:id="@+id/subheading"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:textSize="@dimen/custom_dialog_subtitle_text_size"
+                    tools:text="Backup Completed Succesfully." />
+
+                <LinearLayout
+                    android:id="@+id/extra_view_container"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" />
+
+                <Button
+                    android:id="@+id/positiveButton"
+                    style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/custom_dialog_button_margin"
+                    android:background="@drawable/custom_dialog_button_background"
+                    android:minHeight="@dimen/custom_dialog_button_min_hieght"
+                    android:minWidth="@dimen/custom_dialog_button_min_width"
+                    android:paddingEnd="@dimen/custom_dialog_button_horizontal_padding"
+                    android:paddingLeft="@dimen/custom_dialog_button_horizontal_padding"
+                    android:paddingRight="@dimen/custom_dialog_button_horizontal_padding"
+                    android:paddingStart="@dimen/custom_dialog_button_horizontal_padding"
+                    android:visibility="gone"
+                    tools:text="OK"
+                    tools:textColor="@android:color/white"
+                    tools:visibility="visible" />
+
+                <Button
+                    android:id="@+id/negativeButton"
+                    style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/custom_dialog_button_margin"
+                    android:background="@drawable/custom_dialog_button_background"
+                    android:minHeight="@dimen/custom_dialog_button_min_hieght"
+                    android:minWidth="@dimen/custom_dialog_button_min_width"
+                    android:paddingEnd="@dimen/custom_dialog_button_horizontal_padding"
+                    android:paddingLeft="@dimen/custom_dialog_button_horizontal_padding"
+                    android:paddingRight="@dimen/custom_dialog_button_horizontal_padding"
+                    android:paddingStart="@dimen/custom_dialog_button_horizontal_padding"
+                    android:visibility="gone"
+                    tools:text="OK"
+                    tools:textColor="@android:color/white"
+                    tools:visibility="visible" />
+
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/icon"
+                android:layout_width="@dimen/custom_dialog_icon_size"
+                android:layout_height="@dimen/custom_dialog_icon_size"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                tools:ignore="contentDescription"
+                tools:src="@drawable/ic_vector_custom_dialog_warning_icon" />
+
+
+        </RelativeLayout>
+    </android.support.v4.widget.NestedScrollView>
+         

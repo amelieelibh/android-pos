@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                   
+
+    <RelativeLayout
+        android:id="@+id/window"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" android:tag="layout/dialog_progress_colored_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+
+        <LinearLayout
+            android:id="@+id/title_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:visibility="gone"
+            tools:visibility="visible"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/title_text_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="20dp"
+
+                tools:text="Please wait.." />
+
+            <View
+                android:id="@+id/title_and_content_separator"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="?attr/colorAccent" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/content_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@id/title_container"
+            android:layout_centerVertical="true"
+            android:padding="20dp">
+
+
+            <ProgressBar
+                android:id="@+id/progressBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:elevation="5dp" />
+
+            <TextView
+                android:id="@+id/text"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="8dp"
+                tools:text="Please Wait" />
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+         

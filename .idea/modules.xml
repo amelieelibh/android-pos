@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/MobikulAutoScrollableView-release/MobikulAutoScrollableView-release.iml" filepath="$PROJECT_DIR$/MobikulAutoScrollableView-release/MobikulAutoScrollableView-release.iml" group="mobikul-standalone-pos-master/MobikulAutoScrollableView-release" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="mobikul-standalone-pos-master/app" />
+      <module fileurl="file://$PROJECT_DIR$/currencypicker/currencypicker.iml" filepath="$PROJECT_DIR$/currencypicker/currencypicker.iml" group="mobikul-standalone-pos-master/currencypicker" />
+      <module fileurl="file://$PROJECT_DIR$/mobikul-standalone-pos-master.iml" filepath="$PROJECT_DIR$/mobikul-standalone-pos-master.iml" group="mobikul-standalone-pos-master" />
+      <module fileurl="file://$PROJECT_DIR$/mobikuldialoglibrary-release/mobikuldialoglibrary-release.iml" filepath="$PROJECT_DIR$/mobikuldialoglibrary-release/mobikuldialoglibrary-release.iml" group="mobikul-standalone-pos-master/mobikuldialoglibrary-release" />
+    </modules>
+  </component>
+</project>
